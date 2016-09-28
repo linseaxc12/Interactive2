@@ -1,31 +1,47 @@
+body {
+	background-color:#f9e5c7;
+}
 
 
  h1{
- 	width:-200px;
- 	height:70px;
- 	text-align: right;
+ 	
+ 	text-align: left;
  	letter-spacing: 1px;
  	margin-top: 200px;
- 	margin-right: 120px;
+ 	margin-left: 100px;
  	font-family: Helvetica;
  	font-size: 40px;
+ 	color:white;
  }
 
  h3{
- 	text-align: right;
- 	letter-spacing: 1px;
- 	margin-right: 120px;
+ 	text-align: left;
+ 	letter-spacing: 5px;
+ 	margin-left: 100px;
  	font-family: Helvetica;
  	font-size: 20px;
+ 	color:white;
  }
 
  h3:hover{
- 	color:yellow;
+ 	color: black;
  }
 
  a{
  	text-align:right;
- 	margin-left: 700px;
- 	color:black;
  	font-family: helvetica;
+ 	color:white;
+ 	margin-left:120px;
+ }
+
+ a:hover{
+ 	color:black;
+ }
+
+ h4{
+ 	font-family:helvetica;
+ 	margin-left:150px;
+ 	color:white;
+ 
+
  }
