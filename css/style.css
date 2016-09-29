@@ -1,41 +1,46 @@
 body {
 	background-color:#d2dff4;
 }
+ 
 
 
  h1{
  	
- 	text-align: left;
+ 	text-align: center;
  	letter-spacing: 1px;
- 	margin-top: 200px;
- 	margin-left: 100px;
+ 	margin-top: 300px;
  	font-family: Helvetica;
  	font-size: 40px;
  	color:white;
  }
 
  h3{
- 	text-align: left;
+ 	text-align: center;
  	letter-spacing: 5px;
- 	margin-left: 100px;
  	font-family: Helvetica;
  	font-size: 20px;
  	color:white;
  }
 
  h3:hover{
- 	color: black;
+ 	color: #f9a86d;
  }
 
  a{
- 	text-align:right;
  	font-family: helvetica;
  	color:white;
- 	margin-left:120px;
+ 	font-size: 20px;
+ 	margin-left: 560px;
+ 	text-align: center;
+ 	letter-spacing: 5px;
+ 	text-decoration: none;
+ 	line-height: 60px;
  }
 
  a:hover{
- 	color:black;
+ 	color:#f9a86d;
+ 	text-align: center;
+ 	margin-left: 600px;
  }
 
  h4{
