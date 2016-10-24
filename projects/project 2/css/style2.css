@@ -1,6 +1,7 @@
 body{
-	background-color: white;
+
 }
+
 
 .zero{
 	width:59px;
@@ -343,7 +344,7 @@ position:absolute;
 .nine{
 width:59px;
 height:70px;
-margin-left:1010px;
+margin-left:1015px;
 margin-top:680px;
 margin-bottom: 20px;
 position:absolute;
@@ -407,24 +408,24 @@ opacity: 0.7;
 .triangle-down{
 	width: 0;
 	height: 0;
-	border-top: 40px solid transparent;
-	border-left: 70px solid #fcdf23;
-	border-bottom: 40px solid transparent;
+	border-top: 30px solid transparent;
+	border-left: 60px solid #fcdf23;
+	border-bottom: 30px solid transparent;
 	position: absolute;
-	left:940px;
-	top:500px;
+	left:100px;
+	top:400px;
 
 }
 
 .triangle-down:hover{
 	width: 0;
 	height: 0;
-	border-left: 40px solid transparent;
-	border-right: 40px solid transparent;
-	border-top: 70px solid orange;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 60px solid orange;
 	position: absolute;
-	left:940px;
-	top:500px;
+	left:100px;
+	top:400px;
 	
 
 }
