@@ -25,7 +25,22 @@ function playSound (key){
 	audio.play()
 }
 
+$(document).ready(function(){
+	$('div').on(
+	    "webkitAnimationEnd oanimationend msAnimationEnd animationend",
+	    function() {
+	        $(this).removeClass("active");
+	    }
+	);
+	$('div').on(
+	    "transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd",
+	    function() {
+	        $(this).removeClass("active");
+	    }
+	);
+	   
 
+});
 
 $(document).on('keypress',function(a){
 	if(a.which==97){
@@ -110,13 +125,5 @@ $(document).on('keypress',function(a){
  	if(a.which==122){
 		$('.Z').addClass('active');
  	}	
-
-
-
-
-
-
-
-
 
 });
