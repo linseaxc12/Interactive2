@@ -2,7 +2,7 @@ console.log('in js');
 
 var mediaMap = { 'a':'media/c.mp3', 'b':'media/b.mp3', 'c':'media/a.wav','d':'media/d.wav', 'e':'media/e.wav',
  'enter':'media/enter.mp3','f':'media/f.wav', 'g':'media/g.wav', 'h': 'media/h.mp3','i':'media/i.wav', 'j':'media/j.wav',
- 'k':'media/k.wav','l':'media/w.wav', 'm': 'media/m.mp3', 'n': 'media/n.wav','o':'media/o.wav', 'p':'media/p.wav',
+ 'k':'media/k.wav','l':'media/w.wav', 'm': 'media/m.mp3', 'n': 'media/n.wav','o':'media/O.mp3', 'p':'media/p.wav',
  'q':'media/q.wav','r':'media/r.wav','s':'media/s.wav','t':'media/t.wav', 'u': 'media/u.wav','v':'media/v.wav',
  'w':'media/l.wav','x':'media/x.mp3','y':'media/y.wav','z':'media/z.wav'};
 
@@ -89,7 +89,7 @@ $(document).on('keypress',function(a){
 		$('.N').addClass('active');
  	}
  	if(a.which==111){
-		$('.O').addClass('active');
+		$('#box1').addClass('active');
  	}
  	if(a.which==112){
 		$('.P').addClass('active');
