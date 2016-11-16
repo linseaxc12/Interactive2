@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+}
+
+#ball{
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	position:relative;
+	left:700px;
+	top:400px;
+	
+}
+
+#ball:hover #square {
+	background-color:white;
+	border-radius:100px;
+	-webkit-transform: scale(.25);
+}
+
+
+#square {
+	font-family: helvetica;
+	font-size: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -130px;
+    left: 90%;
+    margin-left: -130px;
+    background-color: white;
+	-webkit-transform: rotate(45deg);
+	-webkit-transition: all 500ms ease-in-out;
+
+}
+#hey{
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: right;
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:200px;
+	-webkit-transition: all .5s ease-in-out;
+}
+
+#hey:hover{
+	-webkit-transform: rotate(720deg);
+
+}
+#sup{
+	font-family: helvetica;
+	font-weight: bolder;
+	font-size: 40px;
+	width: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:700px;
+	-webkit-transition: all .5s ease-in-out;
+}
+#sup:hover{
+	-webkit-transform: rotate(720deg);
+
+}
