@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: pink;
+	position: relative;
+}
+
+
+#ball {
+	width: 200px;
+	height: 200px;
+	background: pink;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	left: 400px;
+	top: 300px;
+
+}
+
+#ball:hover #square {
+	background-color: white;
+	border-radius:100px;
+	-webkit-transform: scale (2.25);
+}
+
+#square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -170px;
+    left: 50%;
+    margin-left: -100px;
+    background-color: pink;
+	-webkit-transform: rotate(45deg);
+	-webkit-transition: all 500ms ease-in-out;
+
+}
+#any {
+	color: white;
+}
+
+#any:hover {
+	color: #FF1493;
+	text-transform: lowercase;
+
+
+}
+
+#text {
+	font-family: futura;
+	font-size: 100px;
+	margin-left: 40px;
+
+}
+
