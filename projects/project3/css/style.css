@@ -1,0 +1,175 @@
+html{
+cursor: url('../images/cursor 2.png'), auto;
+}
+
+
+.text{
+	width:400px;
+	height:19px;
+	font-family: helvetica;
+	font-size:30px;
+	margin-left: 500px;
+	margin-top:340px;
+	line-height: 1px;
+	font-weight:bolder;
+	cursor: url('../images/cursor 1.png'), auto;
+
+	
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 20px;
+	margin-left:500px;
+	color:red;
+	line-height: 14px;
+}
+
+/*
+
+.images{
+	width:10px;
+	height:10px;
+	margin-left:930px;
+	margin-top:-200px;
+	position:absolute;
+}
+
+.images img:last-child{display:none}
+.images:hover img:first-child{display:none}
+.images:hover img:last-child{display:inline-block}
+*/
+
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+li
+{  list-style:none;
+   }
+
+li a
+    { display:block;
+      float:left;
+      width:20%;
+      padding:20px 0;
+      transition:.25s;}
+
+li a:hover  {
+      margin:-0px 0 0 0;
+}
+
+.menu
+    {  width:600px;
+       margin:60px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;
+
+     }
+       
+.menu li:first-child a {  background:#972ad6 !important;}
+.menu li:nth-child(2) a {  background-image:url('../images/cursor 1.png') !important;}
+.menu li:nth-child(3) a {  background-image:url('../images/cursor 1.png') !important;}
+.menu li:nth-child(4) a {  background-image:url('../images/cursor 1.png') !important;}
+.menu li:nth-child(5) a {  background-image:url('../images/cursor 1.png')!important;}
+.menu li:nth-child(6) a {  background:#ffca6d !important;}
+.menu li:nth-child(7) a {  background:#ff6d6d !important;}
+.menu li:nth-child(8) a {  background:#6dffb9 !important;}
+.menu li:nth-child(9) a {  background:#6dcaff !important;}
+.menu li:nth-child(10) a {  background:#ec6dff !important;}
+
+.menu li:first-child:hover ~ .bg {
+  background-image:url('../images/1BK01.png');
+  
+}
+.menu li:nth-child(2):hover ~ .bg {
+  background: #3333ff;
+
+}
+.menu li:nth-child(3):hover ~ .bg {
+  background: #ff3333;
+}
+.menu li:nth-child(4):hover ~ .bg {
+  background: #ff33cc;
+}
+.menu li:nth-child(5):hover ~ .bg {
+  background: #00cc99;
+}
+.menu li:nth-child(6):hover ~ .bg {
+  background: #ffca6d;
+  
+}
+.menu li:nth-child(7):hover ~ .bg {
+  background: #ff6d6d;
+}
+.menu li:nth-child(8):hover ~ .bg {
+  background: #6dffb9;
+}
+.menu li:nth-child(9):hover ~ .bg {
+  background: #6dcaff;
+}
+.menu li:nth-child(10):hover ~ .bg {
+  background: #ec6dff;
+}
+
+.hand{
+    width:1250px;
+    height:810px;
+    margin-top: -400px;
+    margin-right:0px;
+    margin-left:0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-right:159px;
+    z-index: -1;
+    position:absolute;
+
+
+}
+.hand a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hand img {
+  border: 0;
+  padding-right: 20px;
+  white-space:nowrap;
+}
+
+.hand2{
+    width:1250px;
+    height:410px;
+    margin-top: -100px;
+    margin-right:0px;
+    margin-left:0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position:absolute;
+    z-index:10;
+    direction:rtl;
+    padding-left: 159px;
+
+}
+.hand2 a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hand2 img {
+  border: 0;
+  padding-right: 20px;
+  white-space:nowrap;
+}
+
+    
