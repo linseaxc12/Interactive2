@@ -1,0 +1,132 @@
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+li
+{  list-style:none;
+   }
+
+li a
+    { display:block;
+      float:left;
+      width:20%;
+      padding:20px 0;
+      transition:.25s;}
+
+li a:hover  {
+      margin:-0px 0 0 0;
+}
+
+.menu
+    {  width:300px;
+       margin:200px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;
+
+     }
+       
+.menu li:first-child a
+ {  background-image:url('../images/head.png') !important;
+    width:174px;
+    height:26px;
+    }
+.menu li:nth-child(2) a {  background-image:url('../images/headband.png') !important;
+    width:174px;
+    height:34px;}
+.menu li:nth-child(3) a {  background-image:url('../images/face.png') !important;
+    margin-left:8px;
+    width:161px;
+    height:83px;}
+.menu li:nth-child(4) a {  background-image:url('../images/brow.png') !important;
+    width:174px;
+    height:10px;
+    margin-top: 24px;
+    background-repeat:no-repeat;
+  }
+.menu li:nth-child(5) a {  background-image:url('../images/eyes.png')!important;
+    width:174px;
+    height:26px;
+    margin-left: 7px;
+    background-repeat:no-repeat;}
+/*.menu li:nth-child(6) a {  background:white !important;
+    width:174px;
+    height:26px;}
+.menu li:nth-child(7) a {  background:white!important;
+    width:174px;
+    height:26px;}
+.menu li:nth-child(8) a {  background:white!important;
+    width:174px;
+    height:26px;}
+.menu li:nth-child(9) a {  background:white !important;
+    width:174px;
+    height:26px;}
+.menu li:nth-child(10) a {  background:white !important;
+    width:174px;
+    height:26px;}*/
+
+.menu li:first-child:hover ~ .bg {
+
+  background-image:url('../images/1BK01.png');
+
+  
+}
+.menu li:nth-child(2):hover ~ .bg {
+  background: #3333ff;
+
+
+}
+.menu li:nth-child(3):hover ~ .bg {
+  background: #ff3333;
+
+}
+.menu li:nth-child(4):hover ~ .bg {
+  background: #ff33cc;
+
+}
+.menu li:nth-child(5):hover ~ .bg {
+  background: #00cc99;
+}
+.menu li:nth-child(6):hover ~ .bg {
+  background: #ffca6d;
+  
+}
+.menu li:nth-child(7):hover ~ .bg {
+  background: #ff6d6d;
+}
+.menu li:nth-child(8):hover ~ .bg {
+  background: #6dffb9;
+}
+.menu li:nth-child(9):hover ~ .bg {
+  background: #6dcaff;
+}
+.menu li:nth-child(10):hover ~ .bg {
+  background: #ec6dff;
+}
+
+
+.home1{
+  display:block;
+  background:transparent url('../images/trace-01.png') center top no-repeat;
+  height:90px;
+  width:50px;
+  position:absolute;
+  margin-left: 40px;
+  margin-top: -360px;
+}
+.home1:hover{
+  background-image:url('../images/trace-03.png');
+  opacity:;
+  height:90px;
+  width:50px;
+  position:absolute;
+}
+
+
+

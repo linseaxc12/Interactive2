@@ -1,0 +1,16 @@
+.home1{
+  display:block;
+  background:transparent url('../images/trace-01.png') center top no-repeat;
+  height:90px;
+  width:50px;
+  position:absolute;
+  margin-left: 40px;
+
+}
+.home1:hover{
+  background-image:url('../images/trace-03.png');
+  opacity:;
+  height:90px;
+  width:50px;
+  position:absolute;
+}

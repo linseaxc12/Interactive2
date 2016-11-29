@@ -1,9 +1,10 @@
 $(document).ready(function(){
-	alert('hi');
-	$("#background").on("mousedown", function (e) {
-	    e.preventDefault();
-	    $(this).addClass("mouseDown");
-	}).on("mouseup", function () {
-	    $(this).removeClass("mouseDown");
-	});
-});
+	
+	$topIndex = 0;
+
+	&( "ui-draggable").draggable().css({"position"})
+
+	$("ui-draggable" click (function)){
+		#topIndex = $topindex 
+		$(this).css("z-index",$topIndex);
+	}
