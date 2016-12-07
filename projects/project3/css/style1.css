@@ -1,3 +1,4 @@
+
 .home1{
   display:block;
   background:transparent url('../images/trace-01.png') center top no-repeat;
@@ -14,3 +15,184 @@
   width:50px;
   position:absolute;
 }
+.box{
+  width:1000px;
+  height:600px;
+  position:absolute;
+  z-index:-1;
+  top:50px;
+  left: calc( 50% - 500px );
+  background-color:#f9f9f4;
+   box-shadow: 10px 10px 10px #888888;
+}
+#image1{
+  margin-left:1050px;
+  top:230px;
+  position:absolute;
+
+}
+#draggable1{
+  width:50px;
+  height:10px;
+  position:relative;
+  z-index:5;
+  margin-top: 10px;
+  margin-left: 1130px;
+
+
+}
+#draggable2{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   margin-left:100px;
+   top:100px;
+}
+#draggable3{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:10px;
+   left:20px;
+}
+#draggable4{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:-100px;
+   left:20px;
+}
+#draggable5{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+     top:-500px;
+   left:600px;
+}
+#draggable6{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:-600px;
+   left:800px;
+}
+#draggable7{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:-500px;
+   left:1200px;
+}
+
+#draggable8{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:200px;
+   left:800px;
+}
+#draggable9{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:160px;
+   left:560px;
+}
+#draggable10{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+     top:100px;
+   left:1160px;
+}
+#draggable11{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+       top:-300px;
+   left:1160px;
+}
+#draggable12{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:-10px;
+   left:1000px;
+}
+#draggable13{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:-240px;
+   left:60px;
+}
+#draggable14{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+    top:-580px;
+   left:300px;
+}
+}
+#draggable15{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:-380px;
+   left:700px;
+}
+#draggable16{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:-310px;
+   left:900px;
+}
+#draggable17{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+     top:-510px;
+   left:590px;
+}
+#draggable18{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+     top:-310px;
+   left:1200px;
+}
+#draggable19{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:-1010px;
+   left:1000px;
+}
+#draggable20{
+  width:50px;
+  height:10px;
+  position:relative;
+   z-index:5;
+   top:-1210px;
+   left:400px;
+}
+

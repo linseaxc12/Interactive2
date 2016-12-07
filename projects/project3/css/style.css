@@ -38,7 +38,7 @@ a.text4:hover{
   font-family: helvetica;
   font-size: 30px;
   font-weight:bolder;
-   margin-left: -230px;
+   margin-left:60px;
    z-index:30;
    margin-top:-400px;
    text-decoration:none;
@@ -123,7 +123,7 @@ a.text5:hover{
 }
 
 .hand2{
-    width:1250px;
+    width:1290px;
     height:380px;
     margin-top: -13px;
     margin-right:0px;
@@ -307,3 +307,5 @@ a.text5:hover{
 .image16:hover {
     cursor:url('../images/trace-04.png'),auto;
 }
+
+
